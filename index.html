@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Grade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <h1 class="titulo"> Students Grades</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>P1</th>
+                    <th>P2</th>
+                    <th>Average</th>
+                    <th>Status</th>
+                </tr>
+                
+            </thead>
+            <tbody id="alunos">
+               
+                <tr class="aluno">
+                    <td class="nome">João</td>
+                    <td class="notaP1">10</td>
+                    <td class="notaP2">7</td>
+                    <td class="media">0</td>
+                    <td class="status"></td>
+                </tr>
+                <tr class="aluno">
+                    <td class="nome">Maria</td>
+                    <td class="notaP1">9.8</td>
+                    <td class="notaP2">6</td>
+                    <td class="media"></td>
+                    <td class="status"></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <h2>Registration Form</h2>
+        <form  id="formadiciona">
+            
+
+            <label for="nome">Student Name</label>
+            <input type="text" id="nome" name="nome" required >
+            
+            <label for="P1">Grade 1</label>
+            <input type="number" id="P1" name="notaP1" required>
+            
+            
+            <label for="P2"> Grade 2</label>
+            <input type="number" id="P2" name="notaP2" required>
+            <br>
+            <br>
+            <button class="botao" id="botao-handler" type="submit">Insert student</button>
+
+
+
+
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>
+
+<script src="script.js">  </script>
+
+<script src="formsv2.js">  </script>
