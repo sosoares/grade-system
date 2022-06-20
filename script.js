@@ -12,7 +12,7 @@ function statusNota(media) {
         var status = "Approved";
 
     } else {
-        status = "Failed"
+        status = "Failed";
     }
     return status;
 
