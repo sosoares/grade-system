@@ -1,0 +1,23 @@
+body{
+    width: 940px;
+    margin: 10px auto;
+}
+
+section{
+    text-align: center;
+}
+.titulo{
+    font-size: 30px;
+    text-decoration: underline burlywood;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline burlywood;
+}
+table{
+    text-align: center;
+  display: inline;
+}
